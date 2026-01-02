@@ -1,67 +1,75 @@
-# Proyecto Golazo – Módulo de Cuotas (Fork)
+#  Proyecto Final – Golazo (Fork)
 
-## Descripción general
-Este repositorio es un **fork del proyecto Golazo**, un sistema de gestión orientado a la administración de alumnos, asistencias y cuotas.  
-El proyecto original fue desarrollado de manera colaborativa y este fork refleja **los aportes realizados por mí**, centrados específicamente en el **módulo de cuotas**.
+##  Descripción general
+Este repositorio es un **fork** del proyecto original **Golazo**, un sistema de gestión orientado a instituciones deportivas y educativas, desarrollado como **proyecto final**.
+
+Mi participación dentro del proyecto se centró en el **desarrollo e implementación de módulos funcionales clave**, específicamente los módulos de **Cuotas** y **Teachers (Profesores)**, abarcando tanto la lógica de negocio como la integración con el backend y la interfaz de usuario.
 
 ---
 
-## Mi aporte al proyecto
-Mi trabajo dentro del proyecto se enfocó en el desarrollo y mejora de la **gestión de cuotas**, una parte clave del sistema administrativo.
+##  Finalidad de este repositorio
+- Evidenciar mi aporte individual dentro de un proyecto grupal real.
+- Aplicar de manera práctica los conocimientos adquiridos durante la cursada.
+- Desarrollar módulos críticos para la gestión administrativa del sistema.
+- Utilizar este repositorio como soporte académico y de portfolio profesional.
 
-Las tareas realizadas incluyen:
-- Implementación de la lógica para **crear, editar y gestionar cuotas**.
-- Manejo del **estado de las cuotas** (pagadas / impagas).
-- Visualización del estado de pagos de los alumnos.
-- Carga y edición de información relevante como:
+---
+
+##  Aportes realizados
+
+### Módulo de Cuotas
+Desarrollo del sistema de gestión de cuotas de los alumnos, incluyendo:
+
+- Visualización del estado de cuotas (pagadas / impagas).
+- Listado de cuotas por alumno.
+- Registro y gestión de pagos.
+- Ingreso de:
   - monto
   - fecha de pago
   - método de pago
-- Integración del módulo de cuotas con el resto del sistema.
-- Manejo de validaciones y control de datos.
-- Consumo de servicios del backend para la persistencia de la información.
+- Lógica para marcar cuotas como pagadas.
+- Edición y actualización de cuotas.
+- Validaciones de datos y control de errores.
+- Integración con el backend mediante peticiones HTTP.
 
-Este módulo permite llevar un seguimiento claro y ordenado de los pagos, facilitando la gestión económica del sistema.
+Este módulo resulta fundamental para la **gestión administrativa y financiera** del sistema.
+
+---
+
+### Módulo de Teachers (Profesores)
+Implementación del módulo de gestión de profesores, que incluye:
+
+- Alta, edición y listado de teachers.
+- Manejo de información asociada a cada profesor.
+- Formularios con validaciones.
+- Integración con el backend para operaciones CRUD.
+- Correcta vinculación del módulo con el resto del sistema.
+
+Este módulo permite una **gestión ordenada y eficiente del personal docente**.
 
 ---
 
 ## Herramientas y tecnologías utilizadas
-Durante el desarrollo del módulo de cuotas se utilizaron las siguientes herramientas y tecnologías:
-
-- **Frontend**
-  - React
-  - JavaScript
-  - Bootstrap
-
-- **Backend**
-  - Node.js
-  - Express
-
-- **Base de datos**
-  - MySQL
-
-- **Otras herramientas**
-  - Git y GitHub (control de versiones y trabajo con forks)
-  - Postman (pruebas de endpoints)
-  - Axios (consumo de APIs)
-  - Visual Studio Code
+- **Frontend:** React, JavaScript, HTML, CSS, Bootstrap
+- **Backend:** Node.js
+- **Base de datos:** MySQL
+- **Testing de API:** Postman
+- **Control de versiones:** Git, GitHub
+- **Comunicación con API:** Axios / Fetch
+- **Entorno de desarrollo:** Visual Studio Code
 
 ---
 
-## Estructura del fork
-Este fork mantiene la estructura general del proyecto original, incorporando modificaciones y mejoras principalmente en las secciones relacionadas con:
-- Gestión de cuotas
-- Formularios de carga y edición
-- Visualización de información administrativa
+## Contexto académico
+Proyecto desarrollado en el marco de una materia de programación, aplicando conceptos como:
+- Arquitectura cliente-servidor
+- Manejo de estados
+- Validaciones de formularios
+- Consumo de APIs
+- Testing de endpoints con Postman
+- Trabajo colaborativo con Git y GitHub
 
 ---
 
-## Finalidad del fork
-Este fork tiene una finalidad **académica y formativa**, y fue utilizado como práctica real de trabajo sobre un proyecto existente, permitiendo aplicar conocimientos en un entorno similar al profesional, comprendiendo la lógica de un sistema ya iniciado y aportando mejoras concretas.
-
----
-
-## 👩‍💻 Autora del fork
-**Karen Urueña**  
-Estudiante de Ingeniería Informática y Programadora  
-Argentina 🇦🇷
+## 📎 Nota
+Este repositorio corresponde a un **fork del proyecto original**, y refleja específicamente los aportes realizados por mí en los módulos de **Cuotas** y **Teachers**.
